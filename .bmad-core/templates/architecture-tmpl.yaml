@@ -83,11 +83,11 @@ sections:
       - id: high-level-overview
         title: High Level Overview
         instruction: |
-          Based on the PRD's Technical Assumptions section, describe:
+          The PRD does not contain technical decisions; they are owned by the Architect. Based on the PRD's requirements and constraints, decide and describe:
 
           1. The main architectural style (e.g., Monolith, Microservices, Serverless, Event-Driven)
-          2. Repository structure decision from PRD (Monorepo/Polyrepo)
-          3. Service architecture decision from PRD
+          2. Repository structure decision (Monorepo/Polyrepo) and rationale
+          3. Service architecture decision and rationale
           4. Primary user interaction flow or data flow at a conceptual level
           5. Key architectural decisions and their rationale
       - id: project-diagram
@@ -110,7 +110,7 @@ sections:
           1. Present 2-3 viable options if multiple exist
           2. Provide your recommendation with clear rationale
           3. Get user confirmation before finalizing
-          4. These patterns should align with the PRD's technical assumptions and project goals
+          4. These patterns should align with the PRD's requirements, constraints, and project goals
 
           Common patterns to consider:
           - Architectural style patterns (Serverless, Event-Driven, Microservices, CQRS, Hexagonal)
@@ -197,7 +197,7 @@ sections:
       Based on the architectural patterns, tech stack, and data models from above:
 
       1. Identify major logical components/services and their responsibilities
-      2. Consider the repository structure (monorepo/polyrepo) from PRD
+      2. Consider the repository structure (monorepo/polyrepo) decided in this document
       3. Define clear boundaries and interfaces between components
       4. For each component, specify:
       - Primary responsibility

@@ -95,34 +95,6 @@ sections:
           - "iPhone Only"
           - "ASCII Windows Desktop"
 
-  - id: technical-assumptions
-    title: Technical Assumptions
-    instruction: |
-      Gather technical decisions that will guide the Architect. Steps:
-
-      1. Check if .bmad-core/data/technical-preferences.yaml or an attached technical-preferences file exists - use it to pre-populate choices
-      2. Ask user about: languages, frameworks, starter templates, libraries, APIs, deployment targets
-      3. For unknowns, offer guidance based on project goals and MVP scope
-      4. Document ALL technical choices with rationale (why this choice fits the project)
-      5. These become constraints for the Architect - be specific and complete
-    elicit: true
-    choices:
-      repository: [Monorepo, Polyrepo]
-      architecture: [Monolith, Microservices, Serverless]
-      testing: [Unit Only, Unit + Integration, Full Testing Pyramid]
-    sections:
-      - id: repository-structure
-        title: "Repository Structure: {Monorepo|Polyrepo|Multi-repo}"
-      - id: service-architecture
-        title: Service Architecture
-        instruction: "CRITICAL DECISION - Document the high-level service architecture (e.g., Monolith, Microservices, Serverless functions within a Monorepo)."
-      - id: testing-requirements
-        title: Testing Requirements
-        instruction: "CRITICAL DECISION - Document the testing requirements, unit only, integration, e2e, manual, need for manual testing convenience methods)."
-      - id: additional-assumptions
-        title: Additional Technical Assumptions and Requests
-        instruction: Throughout the entire process of drafting this document, if any other technical assumptions are raised or discovered appropriate for the architect, add them here as additional bulleted items
-
   - id: epic-list
     title: Epic List
     instruction: |
