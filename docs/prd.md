@@ -113,3 +113,24 @@ Product name: **Rawasi**. No logo or palette is defined yet; the UX Expert shoul
 ### Target Device and Platforms: Cross-Platform
 
 iOS and Android phones only. No tablet layout in Epic 1.
+
+## Epic List
+
+_Only Epic 1 is detailed in this PRD. Later epics are a roadmap and will be detailed one at a time, when each is ready to plan._
+
+**MVP**
+
+1. **Foundation & Readiness Home** (current): Set up the project and ship offline prayer times, readiness declaration, a preparation window for each prayer, and one notification when that window opens.
+2. **Target Windows & Reflective Logging:** The user picks their own on-time window for each prayer from named scholarly positions. Only prayers outside that window are logged, and every logged prayer asks what was recited.
+3. **Calendar Conflict Engine:** Find calendar events that overlap prayer times, warn before the event starts, and offer ready-made messages for excusing yourself.
+4. **Pattern Surfacing:** Show recurring patterns in lost prayers plainly, without judging them.
+5. **Adhkar & Custom Activities:** Track adhkar with streaks, plus activities the user defines.
+6. **Backup & Device Migration:** Encrypted export and import, including between iOS and Android. _(May move to directly after Epic 2, since worship history starts accumulating there.)_
+
+**After MVP**
+
+7. **Du'a Journey:** Blocked until a qualified reviewer and content contributors are in place.
+8. **Quran Comprehension Journey:** Vocabulary study with spaced repetition.
+9. **Quran Concordance & Word Tracing**
+
+**Later, not yet scheduled:** navigation and driving context, household and family, companionship, kinship, sadaqah, and languages other than Arabic.
